@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.claim{
+    height: 10vh;
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns:repeat(9,1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.claim4{
+    text-align:center;
+    grid-column: 1/3;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    .m4{
+        font-size:large;
+    }
+}
+
+.navmenu{
+    grid-column: 3/8;
+    display: flex;
+    align-items: center;
+}
+
+.alinks{
+        list-style: none;
+        gap: 90px;
+        height: inherit;
+        display: flex;
+        /* align-items: center; */
+}
+
+.alinks a{
+    text-decoration: none;
+    font-size: xx-small;
+    color: white;
+
+}
+.btn{
+    display: none;
+}
+
+
+.ask{
+    grid-column:8/10;
+    display: flex;
+    /* margin-right: 0; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ask a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.one{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* background-color: brown; */
+    /* margin-bottom: 2%; */
+    
+
+
+    
+    .electdad{
+        background-color: rgb(136, 177, 152);
+        height: 60%;
+        width: 50%;
+        display:flex ;
+        position:relative;
+        top: 0%;
+        margin-top: 100px;
+        right: -5%;
+  
+    }
+    .electchild1{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    /* background-color: brown; */
+    background-image: linear-gradient(to right, rgba(16, 12, 12, 0.148), transparent,transparent), linear-gradient(to bottom,  rgba(19, 18, 18, 0.135), transparent,transparent), url(white.jpg);
+    background-size: 100% 100%;
+    background-blend-mode: darken;   
+    top: 12%;
+    left: 20%;
+}
+        
+    .electchild2{
+        width: 25%;
+        height: 50%;
+        background-color: rgb(240, 236, 236);
+        position: absolute;
+        padding-inline: 10%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 15%;
+        right: 25%;
+
+        .fag{
+            text-align: center;
+        }
+        .fag2{
+            text-align:center;
+            font-size: medium;
+            overflow: hidden;
+        }
+
+        .fag3{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            display: flex;
+            justify-self: center;
+            width: 130px;
+            justify-content: center;
+        }
+
+
+    }
+
+}
+
+
+.two{
+    width: 60%;
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    display: grid;
+    grid-template-columns: (4, 1fr);
+    grid-row: 1fr;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    .twochild1{
+        grid-column: 1/4;
+        width: 100%;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .trend{
+            font-size: 20px;
+            margin-top: 5%;
+            font-size: xx-large;
+        }
+
+        .trend-text{
+            font-size: medium;
+            padding: 5%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-right: 4%;
+        }
+    }
+
+    .twochild2{
+        grid-column: 4/5;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: px;
+        align-items: center;
+
+
+
+        .view{
+            background-color: rgb(136, 177, 152);
+            padding: 10px;
+            margin-right: 20px;
+            height: 25px;
+            width: 200px;
+            display: flex;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+        }
+        
+
+        
+    }
+}
+
+.main2{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.184); */
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 0.568),
+     white, transparent), url(back2.jpg);
+    background-size: 100% 100%;
+
+    /* background-blend-mode: lighten; */
+
+
+}
+.firstpart{
+    width: 50%;
+    height:100%;
+    /* background-color: rgb(119, 45, 230); */
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+
+    
+}
+.first1{
+    height: 80%;
+    width:60%;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+.first1 h2{
+    font-size: 40px;
+    width: 200px;
+}
+
+.secondpart{
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+.second2{
+    width: 60%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+}
+.second2 h2{
+    font-size: x-large;
+    width: 130px;
+}
+.secondpartchild{
+    background-color: rgb(136, 177, 152);
+    padding: 10px;
+}
+
+.project{
+    /* background-color: brown; */
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .parentfooter{
+        width: 60%;
+        height: 36vh;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+
+        .childfooter1{
+            width: 50%;
+            height: 100%;
+            background-color: rgb(136, 177, 152);
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            .d150{
+                font-size: 30px;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            .electronicsproject{
+                padding: 10px;
+                display: flex;
+                margin: auto;
+                text-align: center;
+            }
+            .secondlearnmore{
+                background-color: black;
+                color: white;
+                padding: 5px;
+                font-size: small;
+                text-align: center;
+            }
+        }
+
+        .childfooter2{
+            width: 50%;
+            height: 100%;
+
+            .secretaryimg{
+                height: 70%;
+                width: 100%;
+                background-image: url(secretary.jpg);
+                background-color:rgba(0, 0, 0, 0.192);
+                background-blend-mode: darken;
+                background-size: 100% 100%;
+            }
+
+            .sectext{
+                height: 30%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+
+                .projectideas{
+                    font-size: large;
+                    font-weight: bold;
+                }
+
+                .knowmore{
+                    font-size: x-small;
+                    padding-top: 10px;
+                    display: flex;
+                }
+
+            }
+        }
+    }
+    
+}
+
+
+@media screen and (min-width:565px) and (max-width:1024px){
+    *{
+        box-sizing: border-box;
+    }
+
+    .electdad{
+        width: 70% !important;
+        height: 70% !important;
+        bottom: 10% !important;
+        position: relative !important;
+     } 
+    .electchild1{
+        width: 80% !important;
+        height: 60% !important;
+        right: 50% !important;
+        position: absolute !important;
+        left: 3% !important;
+        top: 12% !important;
+    }
+
+    .electchild2{
+        width: 60% !important;
+        height: 55% !important;
+        left: 35% !important;
+        top: 22% !important;
+    }
+    
+    .navmenu{
+        display: flex;
+        align-items: center;
+    }
+
+    .alinks{
+        gap: 1.2rem;
+        display: flex;
+    }
+    .fag{
+        font-size: large;
+    }
+     .ask a{
+        background-color: black;
+        color: white;
+        border: 2px dashed white;
+        
+     }
+     .two{
+        display: flex;
+        flex-direction:row;
+        padding: 15px;
+        width: 100%;
+        margin-top: 2rem;
+
+     }
+
+
+     .main2{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+     }
+     .firstpart{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        height: 30%;
+     }
+     .first1{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+     }
+     .first1-text{
+        margin: auto;
+     }
+
+     .secondpart{
+        height: 70%;
+        margin: auto;
+     }
+    .second2{
+        margin: auto;
+    }
+     
+     .parentfooter{
+        width: 100%!important;
+     }
+
+} 
+
+
+  
+
+@media screen  and (max-width:565px) {
+
+
+    .electdad{
+        /* width: 1% !important;
+        top: 0% !important;*/
+        height: 1% !important;
+        display: none !important;
+    }
+    .electchild1{
+        width: 100% !important;
+        left: 0 !important;
+        height: 50% !important;
+    }
+    .electchild2{
+        width: 60% !important;
+        height: 40% !important;
+        right: 0 !important;
+        top:25% !important;
+    }
+
+    .claim{
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navmenu{
+        display: none;
+    }
+    .ask{
+        display: none;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    .fag{
+        font-size: 10px;
+    }
+    .fag3{
+        display: flex;
+        align-self: flex-end;
+        position: absolute;
+        top: 80%;
+    }
+    .two{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        height: 10rem;
+        align-items: center;
+    }
+
+    .trend{
+        font-size:large!important;
+    }
+    .trend-text{
+        font-size: small!important;
+    }
+    .view{
+        height: 1rem;
+        width: 100%!important;
+        /* padding: 0!important; */
+        margin: 0!important;
+    }
+
+    .main2{
+        height:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .firstpart{
+        display: flex;
+        flex-direction: column;
+        width: 100%;margin: 0;
+        height: 50%;
+    }
+    .first1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .first1-text{
+        width: 100%;
+        margin: 0 !important;
+    }
+    .secondpart{
+        height: 50%;
+        width: 100%;
+    }
+    .second2{
+        display: flex;
+        overflow-x: auto;
+        width: 100%;
+        padding: 15px;
+        background-color: white;
+    }
+    .secondpartchild{
+        border-radius: 5px;
+    }
+    .parentfooter{
+        height: 40vh!important;
+        display: flex!important;
+        flex-direction: column!important;
+        width: 100%!important;
+        /* background-color: blue!important; */
+        justify-content: center;
+    }
+    .childfooter1{
+        display: flex!important;
+        height: 60%!important;
+        width: 80%!important;
+        /* justify-self: center !important; */
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 2rem !important;
+        flex-direction: column!important;
+        padding: 10px !important;
+        
+        .d150{
+            font-size: 1rem !important;
+        }
+    }
+
+       .electronicsproject{
+        width: 100% !important;
+        /* padding: 0 !important; */
+        margin: auto !important;
+    }
+
+    .childfooter2{
+        display: flex !important;
+        height: 40%!important;
+        width: 100% !important;
+        margin-top: 1rem;
+        /* border: 2px dashed rgb(136, 177, 152); */
+        
+        
+    }
+
+    .secretaryimg{
+        height: 100% !important;
+        width: 80% !important;
+    }
+    .sectext{
+        display: flex!important;
+        height: 100%!important;
+        flex-direction: column!important;
+        width: 100%;
+        gap: 5px;
+        border: 2px solid rgb(136, 177, 152);
+        padding: 2px !important;
+    }
+    .projectideas{
+        font-size: 1rem !important;
+        height: 20% !important;
+    }
+    .knowmore{
+        padding: 0 !important;
+    }
+ 
+
+}
